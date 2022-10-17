@@ -5,59 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: hsl(0, 0%, 92%);
-            font-family: Arial, Helvetica, sans-serif;
-           text-decoration: none;
-        }
-        body p {
-            text-align: justify;
-        }
-        header {
-            width: 37.5rem;
-            margin-inline: auto;
-            padding-inline: 2.4rem;
-            text-align: center;
-            margin-top: 4rem;
-        }
-        .sessao-conteudo {
-            width: 60.5rem;
-            margin-inline: auto;
-            padding-inline: 2.4rem;
-            text-align: start;
-        }
-        .tags-lista {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 30px;
-            font-size: 1rem;
-            font-weight: bold;
-            margin-top: 4rem;
-            margin-bottom: 4rem;
-        }
-        .tags-lista a {
-            text-decoration: none;   
-        }
-        ul,li {
-            text-decoration: none;
-        }
-    </style>
-
+    <link rel="stylesheet" href="style.css">
     <title>Tarefa 001 - Resumo da introdução ao Html</title>
 </head>
 
 <body>
-    <header id="inicio">
+    <header class="home" id="inicio">
         <h1>Introdução ao Html na prática</h1>
-        <p>Exercícios proposto, desenvolveruma página, onde possamos explicar e detalhar as tags apresentadas no primeiro
+        <p>Exercícios proposto, desenvolver uma página, onde possamos explicar e detalhar as tags apresentadas no
+            primeiro
             modulo do bootcamp</p>
     </header>
     <section class="sessao-conteudo">
@@ -67,30 +23,92 @@
             <li><a href="#head">Head</a></li>
             <li><a href="#body">body</a></li>
             <li><a href="#i">i</a></li>
+            <li><a href="#i">p</a></li>
+            <li><a href="#i">meta</a></li>
+            <li><a href="#i">div</a></li>
+            <li><a href="#i">img</a></li>
+            <li><a href="#i">form</a></li>
         </ul>
-        <h2>Falando sobre tags</h2>
-        <h3 id="tag">Tags</h3>
-        <small><a href="#inicio">( Voltar )</a></small>
-        <p>Vamos começar, explicando primeiramente o que seria uma "tag". As tags são formadas por uma estrutura própria, iniciam com o sinal “menor que”, em seguida vem o nome daquele elemento e por fim, o sinal “maior que”. Podem ser dispostas em tags que precisam de fechamento e tags que fecham sozinhas (self-closing). O fechamento de uma tag será definido com uma barra (/), sendo que no caso das tags de auto fechamento, não há necessidade da presença desse caractere.(Font - Alura - https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica). </p><br>
-        
-        <h3 id="html">tag -  Html</h3>
-        <small><a href="#inicio">( Voltar )</a></small>
-        <p>A tag html, define o corpo do documento, neste caso, toda linguagem de marcação, toda estrutura da página, deverá esta dentro das tag de abertura e fechamento html.</p><br>
-        <h3 id="head">tag -  Head</h3>
-        <p>A tag head,providencia informações gerais (metadados) sobre o documento, incluindo seu título e links para scripts e folhas de estilos.</p><br>
-        <h3 id="body">tag -  Body</h3>
-        <small><a href="#inicio">( Voltar )</a></small>
-        <p>A tag Body, Representa o corpo da página. Dentro da tag body, deverá ser adicionado todas informações, toda a estrutura de uma pagina página html, o body será o esqueleto da página.</p><br>
-        
-        <h3 id="i">tag -  i</h3>
-        <small><a href="#inicio">( Voltar )</a></small>
-        <p>A tag i,representa uma parte do texto que é destacada do restante por algum motivo, por exemplo, termos técnicos, expressões de outros idiomas ou pensamentos de personagens fictícios. Normalmente, é apresentado com o uso do tipo "itálico". </p><br>
+        <div class="conteudo">
+            <h2>Falando sobre tags</h2><br>
+            <h3 id="tag">Tags</h3>
+            <small><a href="#inicio">( Voltar )</a></small>
+            <p>Vamos começar, explicando primeiramente o que seria uma "tag". As tags são formadas por uma estrutura
+                própria, iniciam com o sinal “menor que”, em seguida vem o nome daquele elemento e por fim, o sinal
+                “maior
+                que”. Podem ser dispostas em tags que precisam de fechamento e tags que fecham sozinhas (self-closing).
+                O
+                fechamento de uma tag será definido com uma barra (/), sendo que no caso das tags de auto fechamento,
+                não há
+                necessidade da presença desse caractere.(Font - Alura -
+                https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica). </p><br>
+            <h3 id="html">tag - Html</h3>
+            <small><a href="#inicio">( Voltar )</a></small>
+            <p>A tag html, define o corpo do documento, neste caso, toda linguagem de marcação, toda estrutura da
+                página,
+                deverá esta dentro das tag de abertura e fechamento html.</p><br>
+            <h3 id="head">tag - Head</h3>
+            <p>A tag head,providencia informações gerais (metadados) sobre o documento, incluindo seu título e links
+                para
+                scripts e folhas de estilos.</p><br>
+            <h3 id="body">tag - Body</h3>
+            <small><a href="#inicio">( Voltar )</a></small>
+            <p>A tag Body, Representa o corpo da página. Dentro da tag body, deverá ser adicionado todas informações,
+                toda a
+                estrutura de uma pagina página html, o body será o esqueleto da página.</p><br>
+            <h3 id="i">tag - i</h3>
+            <small><a href="#inicio">( Voltar )</a></small>
+            <p>A tag i,representa uma parte do texto que é destacada do restante por algum motivo, por exemplo, termos
+                técnicos, expressões de outros idiomas ou pensamentos de personagens fictícios. Normalmente, é
+                apresentado
+                com o uso do tipo "itálico". </p><br>
+            <h3 id="meta">tag - meta</h3>
+            <small><a href="#inicio">( Voltar )</a></small>
+            <p>Esta tag, é responsavel por informações gerais do documento html, informações que não seram exibidas para
+                usuario. </p><br>
+            <h3 id="p">tag - p</h3>
+            <small><a href="#inicio">( Voltar )</a></small>
+            <p>Utilizada geralmente na construção de páragrafos. </p><br>
 
-        <h3>tag -  i</h3>
-        <small><a href="#inicio">( Voltar )</a></small>
-        <p>A tag i,representa uma parte do texto que é destacada do restante por algum motivo, por exemplo, termos técnicos, expressões de outros idiomas ou pensamentos de personagens fictícios. Normalmente, é apresentado com o uso do tipo "itálico". </p><br>
+            <h3 id="div">tag - div</h3>
+            <small><a href="#inicio">( Voltar )</a></small>
+            <p>Esta tag, poderá ser utilizada em todo o contéudo do site, pois ela faz limitação de determinados conteúdos a serem utilizados. Poderemos considerar que as div's, são os a estrutura do esquema de caixas, que utilizamos em Html.</p><br>
+
+            <h3 id="img">tag - img</h3>
+            <small><a href="inicio">( Voltar )</a></small>
+            <p>Através desta tag, o html permiti adicionar imagens ao site.</p><br>
+            <h3 id="form">tag - form</h3>
+            <small><a href="inicio">( Voltar )</a></small>
+            <p>Utilizando a tag form, poderemos adicionar fomrulários ao nossos projetos.</p><br>
+        </div>
+        <p>Acima, foram descrita apenas as principais tags que poderemos utilizar em projetosno decorrer deste curso, por fim, gostaria de deixar uma dica, acessa os link abaixo, estão repletos de ótimos conteúdos que te ajudaram ao enriquecimento do seu aprendizado.</p>
     </section>
+    <footer>
+        <h2>Links úteis:</h2>
+        <p>Aqui, gostaria de disponibilizar links e cnteudos para ajudar no aprendizado. Através deste conteudos e
+            muitas videos aulas, consegui iniciar meus projetos em front end</p>
+        <ul>
+            <li>
+                <a href="https://www.cursoemvideo.com/" target="_blank">Curso em Vídeo
+                </a>
+            </li>
+            <li>
+                <a href="https://www.alura.com.br/" target="_blank">Alura
+                </a>
+            </li>
+            <li>
+                <a href="https://web.digitalinnovation.one/home" target="_blank">Digital Innovation
 
+                </a>
+            </li>
+            <li>
+                <a href="https://www.udemy.com/" target="_blank">Udemy Cursos
+
+                </a>
+            </li>
+        </ul>
+        <small><a href="#inicio">( Ínicio)</a></small>
+    </footer>
 
 
 </body>
