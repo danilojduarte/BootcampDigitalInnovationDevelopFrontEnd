@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 003 - Fieldset</title>
+    <style>
+        .row {
+            margin: 5px;
+        }
+        label{
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+        fieldset {
+            border-radius: 10px;
+            border: solid blue 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Formulario de Cadastro</h1>
+    <!-- Fieldset -->
+
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div class="row">
+            <label>Nome:</label><input type="text" />
+            <label>E-mail:</label><input type="text" />
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Profissão</legend>
+        <div class="row">
+            <label>Profissão:</label><input type="text" />
+            <label>Empresa:</label><input type="text" />
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Contato</legend>
+        <div class="row">
+            <label>Endereço:</label><input type="text" />
+            <label>Telefone:</label><input type="text" />
+        </div>
+    </fieldset>
+
+</body>
+
+</html>
