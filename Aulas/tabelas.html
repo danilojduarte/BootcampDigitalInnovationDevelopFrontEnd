@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula - Tabelas</title>
+    <style>
+        table tr:nth-child(even) {
+            background-color: red;
+        }
+
+        table tr:hover td {
+            background-color: blue;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Trabalhando Com Tabelas</h1>
     <!-- TABELAS -->
-    
+    <table summary="Descrição tabela" border="1" width="250" collspacing="15" collpadding="25" align="center">
+        <caption>Tabela de idade e nome</caption>
+        <thead>
+            <tr>
+                <th title="Nome completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Isabela</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Isis</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>Joana</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>72</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td></td>
+        </tfoot>
+    </table>
+
 </body>
+
 </html>
