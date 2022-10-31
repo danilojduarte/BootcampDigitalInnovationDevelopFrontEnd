@@ -1,0 +1,25 @@
+Projeto Clinica PetShow
+
+Menu
+*Página Principal
+*Sobre a clínica
+*Horário de Atendimento
+*Contato
+
+Content
+-> Pagina principal
+img no header;
+Descrição sobre a clinica
+
+-> Sobre a Clinica
+Falando sobre a Clinica;
+
+->Horário de Atendimento
+Breve apresentação falando de serviços
+e tabela com horário;
+
+->Contato
+
+
+
+Footer
