@@ -10,7 +10,7 @@ html, body {
     list-style: none;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: #fff;
     display: flex;
     justify-content: center;
 }
@@ -27,8 +27,8 @@ body {
     width: 85%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
+    width: 20%;
+    background-color: #FFF;
     padding: 10px 30px 10px 10px;
 
     line-height: 2rem;
@@ -36,15 +36,19 @@ body {
     font-size: 1.1rem;
     align-items: center;
 }
+.lista-menu {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
 .menu a {
     text-decoration: none;
     cursor: pointer;
+    color:orange;
 }
-
 /* INICIO HEADER */
-.main {
-    
-}
 .header {
     background-color: #fff;
     min-height: 150px;
@@ -69,12 +73,15 @@ body {
     padding: 0;
 }
 .content {
-    background-color: rgba(230, 227, 227, 0.934);
+    background-color: #FFF;
     min-height: 300px;
     padding: 20px;
 
     display: flex;
     flex-direction: row;
+}
+.content p {
+    text-align: justify;
 }
 .footer {
     background-color: rgb(99, 56, 240);
