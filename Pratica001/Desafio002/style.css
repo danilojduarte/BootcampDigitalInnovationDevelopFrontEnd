@@ -1,9 +1,13 @@
+* {
+    list-style-type: none;
+}
+
 html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
+    list-style: none;
 }
 body {
     background-color: #f1f1f1;
@@ -25,10 +29,22 @@ body {
 .menu {
     width: 15%;
     background-color: aqua;
-    padding: 10px 20px 0px;
+    padding: 10px 30px 10px 10px;
+
+    line-height: 2rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    align-items: center;
+}
+.menu a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* INICIO HEADER */
+.main {
+    
+}
 .header {
     background-color: #fff;
     min-height: 150px;
@@ -53,9 +69,12 @@ body {
     padding: 0;
 }
 .content {
-    background-color: white;
+    background-color: rgba(230, 227, 227, 0.934);
     min-height: 300px;
     padding: 20px;
+
+    display: flex;
+    flex-direction: row;
 }
 .footer {
     background-color: rgb(99, 56, 240);
