@@ -28,12 +28,13 @@ body {
     display: flex;
     flex-flow: column;
     width: 85%;
+    background-color: rgba(207, 203, 203, 0.331);
 }
 
 .menu {
     width: 20%;
 
-    background-color: #FFF;
+    /* background-color: #FFF; */
     padding: 170px 20px ;
 
     line-height: 2rem;
@@ -56,6 +57,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    align-items:flex-end;
 }
 
 .menu a {
@@ -96,6 +98,15 @@ body {
 .header-img {
     width: 16rem;
     padding: 0;
+}
+.sobre-img {
+    width: 20rem;
+}
+.sobre-texto {
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    font-weight: 200;
 }
 
 .content {
