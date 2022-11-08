@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 37.57px;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+/* Regras Gerais */
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .6), rgba(0, 0, 0, .6)), url(../Desafio03/img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 8rem;
+    border-bottom: 1px solid #33A8DB80;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner .logo {
+    margin: auto;
+    margin-bottom: 18px;
+    border-radius: 50%;
+}
+
+.banner-content h1 {
+    font-size: 40px;
+    font-style: normal;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-bottom: 18px;
+}
+
+.banner p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.banner .banner-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 61px;
+    margin-bottom: 40px;
+    gap: 31px;
+    /* position: absolute; */
+    width: 335px;
+    height: 57px;
+    left: calc(50% - 326px/2);
+    top: calc(50% - 57px/2 + 199px);
+
+    background-color: transparent;
+
+    color: #31A8DD;
+    text-transform: uppercase;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
+
+}
+
+
+.main {
+    margin-bottom: 12rem;
+}
