@@ -21,6 +21,7 @@ h2 {
     -webkit-background-clip: text;
     margin-bottom: 18px;
     text-align: center;
+    padding-top: 118px;
 }
 
 p {
@@ -30,6 +31,7 @@ p {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 /* Regras Gerais */
@@ -102,7 +104,7 @@ p {
     color: #31A8DD;
     text-transform: uppercase;
 
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
 
     border-image: linear-gradient(#3BA1CD, #1572B7);
@@ -114,4 +116,61 @@ p {
 
 .main {
     margin-bottom: 12rem;
+}
+
+.main h2 {
+    margin-top: 20px;
+}
+
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.module {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 16px;
+    margin-bottom: 2rem;
+    gap: 10px;
+
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+
+    width: 535px;
+    height: 51px;
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+
+
+}
+
+.module span {
+    color: #33A8DB;
+}
+
+
+.transform p {
+    position: absolute;
+    width: 244px;
+    height: 141px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+
+    text-shadow: 3px 2px 0px #33A8DB;
 }
