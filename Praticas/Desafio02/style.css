@@ -33,7 +33,7 @@ body {
     flex-flow: column;
     width: 85%;
     /* background-color: rgba(207, 203, 203, 0.331); */
-    background: red;
+    background-color: #F2DFBB;
 }
 
 .menu {
@@ -57,7 +57,7 @@ body {
 }
 
 .lista-menu {
-    padding-top: 4rem;
+    padding-top: 1rem;
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -67,7 +67,7 @@ body {
 .menu a {
     text-decoration: none;
     cursor: pointer;
-    color: #2D3540;
+    color: #242873;
     font-size: 1.3rem;
 }
 
@@ -77,7 +77,7 @@ body {
 }
 
 .header {
-    background-color: #034C8C;
+    background-color: #F2DFBB;;
     min-height: 150px;
     display: flex;
     flex-direction: row;
@@ -96,7 +96,7 @@ body {
     font-size: 1.6rem;
     line-height: 2rem;
     font-weight: 700;
-    color: #fff;
+    color: #242873;
 }
 
 .header span {
@@ -129,7 +129,7 @@ body {
 }
 
 .content h1 {
-    color: black;
+    color: #242873;
     font-weight: 700;
     text-align: center;
 }
@@ -148,13 +148,13 @@ body {
     line-height: 2rem;
     padding-top: 1rem;
     text-align: justify;
-    color: #9ca682
+    color: #242873;
     font-weight: 600;
 
 }
 
 .footer {
-    background-color: hsla(214, 17%, 41%, 0.268);
+    background-color: #F2DFBB;
     min-height: 150px;
     width: 100%;
     height: 25vh;
@@ -164,9 +164,7 @@ body {
     flex-direction: column;
     align-items: center;
 
-    border-radius: 3rem 0 3rem 0;
-
-    color: #034CBC;
+    color: #242873;
 }
 
 .footer-conteudo {
@@ -178,6 +176,8 @@ body {
 }
 
 .footer-conteudo p {
+    padding-top: 1rem;
+    font-weight: bold;
     padding-bottom: 1rem;
 }
 
