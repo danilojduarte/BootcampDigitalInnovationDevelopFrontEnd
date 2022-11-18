@@ -1,22 +1,77 @@
 // Objetos e Classes
-class Carro {
-    marca;
-    cor;
-    gastoMedioPorKm;
+class Pessoa {
+    nome;
+    peso;
+    altura;
 
-    constructor(marca, cor, gastoMedioPorKm){
-        this.marca = marca;
-        this.cor = cor;
-        this.gastoMedioPorKm = gastoMedioPorKm;
+    constructor(nome, peso, altura){
+        this.nome = nome;
+        this.peso = peso;
+        this.altura = altura;
     }
-    calcularGastoDePercuso(distanciaKm, precoCombustivel){
-        return distanciaKm * this.gastoMedioPorKm * precoCombustivel;
+
+    calcularImc() {
+          return this.peso / (this.altura * this.altura);
     }
-}
+    classifcarImc(){
+        const imc = this.calcularImc();
+        if (imc < 18.5) {
+                return "Abaixo de peso";
+              } else if (imc >= 18.5 && imc < 25) {
+                return "Peso normal";
+              } else if (imc >= 25 && imc < 30) {
+                return "Acima do peso";
+              } else if (imc >= 30 && imc < 40) {
+                return "Obeso";
+              } else {
+                return "Obsidade Grave";
+              }
+            }
+    }
 
-const uno = new Carro('Fiat', 'Branco', 1/12);
 
-console.log(uno.calcularGastoDePercuso(70, 5));
+    const jose = new Pessoa('jose', 70, 1.65);
+    console.log(jose.calcularImc());
+    const danilo = new Pessoa('danilo', 84, 1.69);
+    console.log(danilo.classifcarImc());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// class Carro {
+//     marca;
+//     cor;
+//     gastoMedioPorKm;
+
+//     constructor(marca, cor, gastoMedioPorKm){
+//         this.marca = marca;
+//         this.cor = cor;
+//         this.gastoMedioPorKm = gastoMedioPorKm;
+//     }
+//     calcularGastoDePercuso(distanciaKm, precoCombustivel){
+//         return distanciaKm * this.gastoMedioPorKm * precoCombustivel;
+//     }
+// }
+
+// const uno = new Carro('Fiat', 'Branco', 1/12);
+
+// const attrative = new Carro('Fiat', 'Preto', 1/10);
+
+// console.log(uno.calcularGastoDePercuso(70, 5));
+// console.log(attrative.calcularGastoDePercuso(70, 5));
 
 
 

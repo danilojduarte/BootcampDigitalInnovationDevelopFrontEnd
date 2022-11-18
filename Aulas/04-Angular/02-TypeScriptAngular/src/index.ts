@@ -52,6 +52,8 @@ dados.filter("dados2");
 // Datas
 let  aniversario:Date = new Date( "04/10/1984");
 
+//funcoes
+
 
 
 
