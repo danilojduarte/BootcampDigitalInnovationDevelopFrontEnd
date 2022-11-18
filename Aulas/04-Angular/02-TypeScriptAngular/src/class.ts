@@ -18,3 +18,10 @@ class Character {
 
 const p1 = new Character('Ryu', 10, 80);
 console.log('p1');
+
+// data modificadores
+// *Tipos  
+// public 
+
+// private
+// protected
