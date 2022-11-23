@@ -5,7 +5,7 @@
     margin: 0;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .pokemon {
@@ -27,6 +27,7 @@
 }
 
 .pokemon .name {
+    text-transform: capitalize;
     color: #fff;
     margin-bottom: 0;
 }
@@ -38,7 +39,7 @@
     justify-content: space-between;
 }
 
-.pokemon .types {
+.pokemon .detail .types {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -51,6 +52,7 @@
     font-size: .625rem;
     margin: .25rem 0;
     border-radius: 1rem;
+    text-align: center;
 }
 
 .pokemon .detail img {
