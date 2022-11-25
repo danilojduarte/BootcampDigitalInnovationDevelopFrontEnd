@@ -33,7 +33,7 @@ body {
     flex-flow: column;
     width: 85%;
     /* background-color: rgba(207, 203, 203, 0.331); */
-    background-color: #F2DFBB;
+    background-color: #D9D9D9;
 }
 
 .menu {
@@ -71,13 +71,43 @@ body {
     font-size: 1.3rem;
 }
 
-/* INICIO HEADER */
-.main {
-    /* padding-top: 0.5rem; */
+/* MENU #SOBRE */
+
+.menu-sobre {
+    width: 20%;
+    /* background-color: #FFF; */
+    padding: 170px 20px ;
+
+    line-height: 2rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    align-items: center;
+}
+.lista-menu-sobre {
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items:flex-end;
 }
 
+.menu-sobre ul li {
+    transition: all 0.5s;
+}
+
+.menu-sobre ul li:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.menu-sobre a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #242873;
+    font-size: 1.3rem;
+}
+/* INICIO HEADER */
 .header {
-    background-color: #F2DFBB;;
+    background-color: #D9D9D9;
     min-height: 150px;
     display: flex;
     flex-direction: row;
@@ -107,6 +137,28 @@ body {
     width: 16rem;
     padding: 0;
 }
+
+/* Estilo Pagina #Sobre */
+.header-sobre {
+    background-color: #D9D9D9;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 3rem;
+
+    height: 16rem;
+    margin-top: 2rem;
+    border-bottom: 1px solid #2d354017;
+    border-radius: 0px 0px 8px 8px;
+}
+.header-img-sobre {
+    width: 90%;
+}
+.header-sobre span {
+    color: #18C29C;
+}
 .sobre-img {
     width: 20rem;
 }
@@ -126,6 +178,8 @@ body {
     flex-direction: row;
     justify-content: center;
     gap:4rem;
+
+    border-radius: 8px;
 }
 
 .content h1 {
@@ -154,7 +208,7 @@ body {
 }
 
 .footer {
-    background-color: #F2DFBB;
+    background-color: #D9D9D9;
     min-height: 150px;
     width: 100%;
     height: 25vh;
