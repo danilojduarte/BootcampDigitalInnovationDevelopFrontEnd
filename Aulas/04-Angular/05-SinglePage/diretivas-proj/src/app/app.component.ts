@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'life-cycle';
+  title = 'diretivas-proj';
+  isAliveCard = true
 }

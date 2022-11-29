@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "life-cycle": {
+    "diretivas-proj": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/life-cycle",
+            "outputPath": "dist/diretivas-proj",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "life-cycle:build:production"
+              "browserTarget": "diretivas-proj:build:production"
             },
             "development": {
-              "browserTarget": "life-cycle:build:development"
+              "browserTarget": "diretivas-proj:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "life-cycle:build"
+            "browserTarget": "diretivas-proj:build"
           }
         },
         "test": {
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "ffd8c6c8-b7a7-4ad0-8a95-40515fdca48e"
+    "analytics": "b32c47e6-448c-4f58-b3de-32e524f17d75"
   }
 }
