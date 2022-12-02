@@ -169,6 +169,29 @@ body {
     font-weight: 200;
 }
 
+/* Estilo Pagina Horario */
+.header-img-horario {
+    height: 335px;
+    width: 100%;
+}
+.header-logo-horario {
+    z-index: 1001;
+}
+
+/* Incio Content-horario */
+.content-horario {
+    background-color: #FFF;
+    min-height: 300px;
+    padding-top: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap:2rem;
+}
+
+/* Fim Estilo Pagina Horario */
+
 .content {
     background-color: #FFF;
     min-height: 300px;
