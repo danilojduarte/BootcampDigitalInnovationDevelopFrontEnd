@@ -174,20 +174,50 @@ body {
     height: 335px;
     width: 100%;
 }
-.header-logo-horario {
-    z-index: 1001;
-}
-
-/* Incio Content-horario */
 .content-horario {
     background-color: #FFF;
     min-height: 300px;
     padding-top: 2rem;
 
     display: flex;
-    flex-direction: row;
-    justify-content:space-between;
+    flex-direction:column;
+    align-items: center;
     gap:2rem;
+}
+.horario-geral {
+    padding-top: 2rem;  
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.horario-geral p {
+    text-align: center;
+}
+.horario-geral h2 {
+    margin-bottom: 2rem;
+}
+.horario-servicos {
+    padding-top: 2rem;
+}
+.cards-servicos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.card-servico {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 120px;
+    height: 90px;
+    text-align: center;
+
+    background-color: #242873;
+    color: #FFF;
+}
+.card-servico h4, p {
+    padding-top: 0.2rem;
+    margin-bottom: 0.2rem;
 }
 
 /* Fim Estilo Pagina Horario */
