@@ -169,12 +169,12 @@ body {
     font-weight: 200;
 }
 
-/* Estilo Pagina Horario */
-.header-img-horario {
+/* Estilo PaginaContato */
+.header-img-contato {
     height: 335px;
     width: 100%;
 }
-.content-horario {
+.content-contato {
     background-color: #FFF;
     min-height: 300px;
     padding-top: 2rem;
@@ -184,19 +184,19 @@ body {
     align-items: center;
     gap:2rem;
 }
-.horario-geral {
+.contato-geral {
     padding-top: 2rem;  
     display: flex;
     flex-direction:column;
     align-items: center;
 }
-.horario-geral p {
+.contato-geral p {
     text-align: center;
 }
-.horario-geral h2 {
+.contato-geral h2 {
     margin-bottom: 2rem;
 }
-.horario-servicos {
+.contato-servicos {
     padding-top: 2rem;
 }
 .cards-servicos {
@@ -220,7 +220,27 @@ body {
     margin-bottom: 0.2rem;
 }
 
-/* Fim Estilo Pagina Horario */
+.contato-formulario{
+    align-items: center;
+}
+
+/* Fim Estilo Pagina Contato */
+
+/* Estilo Pagina Horario */
+.content-horario {
+    background-color: #FFF;
+    min-height: 300px;
+    padding-top: 2rem;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.horario-border {
+    padding-top: 2rem;
+}
 
 .content {
     background-color: #FFF;
