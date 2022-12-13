@@ -1,18 +1,21 @@
 <div class="container-big-card">
     <div class="big-card-photo">
-        <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/823AF9C5228FB68380C33606C85E0EB8380B3169715FBF68AB12047124EE55E4/scale?width=1200&aspectRatio=1.78&format=jpeg" 
+        <img src="{{ photoCover }}" 
         alt="" 
         height="200px"
         srcset="">
     </div>
     <div class="big-card-title">
         <h1>
-            <a href="#">Saiu a nova versão do angular</a>
+            <a href="#">{{ cardTitle }}Saiu a nova versão do angular</a>
         </h1>
     </div>
     <div class="big-card-description">
         <p>
-            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequuntur ex iste beatae maiores ipsam quas, animi alias temporibus omnis, in eos ducimus, eius esse nesciunt dolor rem labore. Error.</a>
+            <a href="#">
+                {{ cardDescription }}
+                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequuntur ex iste beatae maiores ipsam quas, animi alias temporibus omnis, in eos ducimus, eius esse nesciunt dolor rem labore. Error. -->
+            </a>
         </p>
     </div>
 </div>
