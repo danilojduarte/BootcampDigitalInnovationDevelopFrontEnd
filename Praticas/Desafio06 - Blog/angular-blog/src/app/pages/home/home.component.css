@@ -1,4 +1,5 @@
 .contaniner-articles {
+    
     margin-top: 30px;
 
     display: flex;
@@ -8,6 +9,8 @@
 
 header {
     margin-top: 20px;
+
     display: flex;
+
     justify-content: center;
 }
