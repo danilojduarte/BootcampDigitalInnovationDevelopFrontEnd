@@ -7,8 +7,10 @@
         <h3>{{ questionSelected.question }}</h3>
     </div>
     <div class="quizz-options">
-        <button class="btn-option">
-            optionname
+        <button *ngFor="let option of questionSelected.options" 
+        (click)="playerChoose(option.alias)"
+        class="btn-option">
+            {{ option.name }}
         </button>
     </div>
     <div *ngIf=finished class="quizz-results">

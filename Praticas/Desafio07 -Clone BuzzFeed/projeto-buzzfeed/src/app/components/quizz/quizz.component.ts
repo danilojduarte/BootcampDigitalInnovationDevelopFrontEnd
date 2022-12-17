@@ -26,6 +26,29 @@ export class QuizzComponent implements OnInit {
   ngOnInit(): void {
     if(quizz_questions)
     this.finished = false
+    this.title = quizz_questions.title
+
+    this.questions = quizz_questions.questions
+    this.questionSelected = this.questions[this.questionIndex]
+
+    this.questionMaxIndex = 0
+    this.questionMaxIndex = this.questions.length
+
+
+  }
+
+  playerChoose(value:string){
+    this.answers.push(value)
+  }
+
+  async nextStep(){
+    this.questionIndex+=1
+
+    if(this.questionMaxIndex > this.questionIndex){
+      this.questionSelected = this.questions[this.questionIndex]
+    } else {
+      this.finished = true
+    }
   }
 
 }
